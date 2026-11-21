@@ -231,7 +231,7 @@ header[data-testid="stHeader"] {
 
 /* Move success messages down */
 div[data-testid="stAlert"] {
-    margin-top: 1rem !important;
+    margin-top: 2rem !important;
 }
 
 /* Reduce wasted space at the top */
