@@ -223,10 +223,16 @@ st.markdown("""
     background-color: #F3F0E9;
 }
 
+/* Streamlit header */
+header[data-testid="stHeader"] {
+    background-color: #F3F0E9 !important;
+    border-bottom: none !important;
+}
+
 /* Reduce wasted space at the top */
 .block-container {
     max-width: 1100px;
-    padding-top: 1rem;
+    padding-top: 2rem;
     padding-bottom: 1rem;
 }
 
