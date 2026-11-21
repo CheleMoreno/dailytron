@@ -229,6 +229,11 @@ header[data-testid="stHeader"] {
     border-bottom: none !important;
 }
 
+/* Move success messages down */
+div[data-testid="stAlert"] {
+    margin-top: 1rem !important;
+}
+
 /* Reduce wasted space at the top */
 .block-container {
     max-width: 1100px;
